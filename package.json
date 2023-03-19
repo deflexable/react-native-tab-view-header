@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/deflexable/react-native-tab-view-header/issues"
   },
-  "homepage": "https://github.com/deflexable/react-native-tab-view-header#readme"
+  "homepage": "https://github.com/deflexable/react-native-tab-view-header#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-tab-view": "*"
+  }
 }

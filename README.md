@@ -21,18 +21,19 @@ yarn add react-native-tab-view-header react-native-tab-view
 
 ### Demo
 
-<img src="https://github.com/deflexable/react-native-tab-view-header/picture/demo.gif" width="360>
+<img src="https://github.com/deflexable/react-native-tab-view-header/blob/main/pictures/demo.gif" width="360">
 
 
 ### Example
 
 ```js
 import React, { useState } from "react";
-import { Alert, Animated, TouchableOpacity, View, Text, FlatList } from "react-native";
+import { Alert, Animated, TouchableOpacity, View, Text, FlatList, Dimensions } from "react-native";
 import { getStatusBarHeight } from "react-native-iphone-x-helper";
-import { WINDOW_HEIGHT } from "../../values/GeneralValues";
 import CollapsibleTabViewHeader from "react-native-tab-view-header";
 
+
+const WINDOW_HEIGHT = Dimensions.get('window').height;
 
 const App = () => {
     const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
@@ -138,7 +139,8 @@ export default App;
 ### TODOS
 
 - Add refresh control feature
-- Add support for ```js <View />``` and ```js <ScrollView />``` (Currently only support FlatList, SectionList)
+- Add support for ``` <View />``` and ``` <ScrollView />``` (Currently only support FlatList, SectionList)
+- Add Header Collapse snap effect
 
 
 ### Reference

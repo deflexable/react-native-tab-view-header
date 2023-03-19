@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Dimensions, PanResponder, StyleSheet, Text } from "react-native";
-import { Animated, Platform, View } from "react-native"
+import { Dimensions, PanResponder, StyleSheet, Text, Animated, Platform, View } from "react-native";
 import { TabBar, TabView } from "react-native-tab-view";
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
