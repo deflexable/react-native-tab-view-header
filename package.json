@@ -1,0 +1,29 @@
+{
+  "name": "react-native-tab-view-header",
+  "version": "1.0.0",
+  "description": "A tabview component with collapsible header. adapted with refreshable, scrollable and touchable header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deflexable/react-native-tab-view-header.git"
+  },
+  "keywords": [
+    "tabview",
+    "swipe",
+    "tabbar",
+    "react-native",
+    "swipeview",
+    "collapsible-tab-bar",
+    "collapsible-tab-view",
+    "tab-view-header"
+  ],
+  "author": "Anthony Onabanjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deflexable/react-native-tab-view-header/issues"
+  },
+  "homepage": "https://github.com/deflexable/react-native-tab-view-header#readme"
+}
